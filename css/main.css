@@ -1,3 +1,28 @@
-p {
-    color: green;
+/* reset margins */
+html, body, div, span, h1, h2, h3, p, ol, ul, li, form, label, table, caption, article, aside, embed, footer, header, menu, nav, section, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
     }
+
+body{
+    font-family: 
+    font-size: 
+    line-height:
+}
+
+h1, h2, h3{
+    line-height: 1;
+    font-family: georgia, serif;
+    font-weight: bold;
+    margin: 20px
+    } 
+
+h1{ font-size: 200%}
+h2{ font-size: 180%}
+h3{ font-size: 160%}
+
+
