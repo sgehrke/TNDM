@@ -1,25 +1,34 @@
 /*---------Reset-----------------*/
 
-h1,h2,h3 h4, p, body, article {
+h1, h2, h3, h4, p, body, article {
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+p { 
+    padding: 0px 20px 20px 20px;
+}
+
+h1, h2, h3, section, span{
+    padding: 10px 20px 3px 20px;
 }
 
 
 /*---------Navigation head--------------*/
 
 #top-menu {
-    background-color: white;
+    background-color: rgba( 0, 0, 0, 1);
     position: fixed;
+    display: block;
     height: 75px;
     width: 100%;
-    
 }
 
 #top-menu ul {
     width: 960px;
     margin: 0 auto;
+    float: left;
     background-color: grey;
     list-style-type: none;
     padding: 0;
@@ -28,9 +37,9 @@ h1,h2,h3 h4, p, body, article {
 
 #top-menu li { 
     width: 320px;
+    overflow: hidden;
     background-color: green;
     float: right;
-   
 }
 
 #top-menu a { 
@@ -50,6 +59,7 @@ h1,h2,h3 h4, p, body, article {
 
 img {
     float: left;
+    padding-left: 150px;
 }
 
 /*---------Branding-----------------*/
@@ -58,6 +68,7 @@ img {
     background-color: purple;
     text-align: center;
     line-height: 75px;
+    padding: 75px 0px 0px 0px;
 }
 
 /*---------Header-----------------*/
@@ -65,13 +76,17 @@ img {
 #wrapper {
     width:960px;
     margin: 0 auto;
+    padding: 0px;
+    background-color: white;
 } 
 
 header {
     background-color: #999;
     margin-top: 0; 
-    width: 0 auto;
+    width: 0;
 }
+
+/*-----------Main Content------------------*/
 
 body {
     background-color: #666;
@@ -79,13 +94,17 @@ body {
 
 #intro { 
     background-color: #333;
+    padding: 75px 0px 0px 0px;
 }
 
-/*-----------Sidebar-----------------*/
-aside { 
-    background-color: #777;
-    width: 367px;
-    float: left;
+#calltoaction {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    display: block;
+    width: 150px;
+
 }
 
 #article { 
@@ -98,15 +117,42 @@ aside {
     background-color: blue;
     float: left;
     clear: both;
+    padding: 75px 0px 0px 0px;
+}
+#about p {
+    -moz-column-count: 3;
+    -moz-column-gap: 25px;
+    -moz-column-rule: solid;
+    text-align: left;
 }
 
 #gallery { 
     background-color: red;
     clear: both;
+    padding: 75px 0px 0px 0px;
 }
+
+
+/*-----------Sidebar-----------------*/
+aside { 
+    background-color: #777;
+    width: 367px;
+    float: right;
+}
+
+aside p { 
+    padding-bottom: 0;
+    margin: 0;
+}
+
+#charts {
+    background-color: black;
+}
+
 
 /*-----------Footer--------------*/
 footer { 
     background-color: yellow;
+    clear: both;
 }
 
