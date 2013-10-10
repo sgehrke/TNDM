@@ -1,0 +1,112 @@
+/*---------Reset-----------------*/
+
+h1,h2,h3 h4, p, body, article {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/*---------Navigation head--------------*/
+
+#top-menu {
+    background-color: white;
+    position: fixed;
+    height: 75px;
+    width: 100%;
+    
+}
+
+#top-menu ul {
+    width: 960px;
+    margin: 0 auto;
+    background-color: grey;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+#top-menu li { 
+    width: 320px;
+    background-color: green;
+    float: right;
+   
+}
+
+#top-menu a { 
+    text-decoration: none;
+    background-color: white;
+    display: block;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    color: green;
+}
+
+#top-menu a:hover {
+    color: orange;
+    background: green;
+}
+
+img {
+    float: left;
+}
+
+/*---------Branding-----------------*/
+
+#branding {
+    background-color: purple;
+    text-align: center;
+    line-height: 75px;
+}
+
+/*---------Header-----------------*/
+
+#wrapper {
+    width:960px;
+    margin: 0 auto;
+} 
+
+header {
+    background-color: #999;
+    margin-top: 0; 
+    width: 0 auto;
+}
+
+body {
+    background-color: #666;
+}
+
+#intro { 
+    background-color: #333;
+}
+
+/*-----------Sidebar-----------------*/
+aside { 
+    background-color: #777;
+    width: 367px;
+    float: left;
+}
+
+#article { 
+    background-color: green;
+    width: 593px;
+    float: left;
+}
+
+#about { 
+    background-color: blue;
+    float: left;
+    clear: both;
+}
+
+#gallery { 
+    background-color: red;
+    clear: both;
+}
+
+/*-----------Footer--------------*/
+footer { 
+    background-color: yellow;
+}
+
