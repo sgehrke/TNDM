@@ -123,7 +123,7 @@ body {
 #intro { 
     background-color: rgba(0, 0, 0, .2);
     padding: 75px 0px 75px 0px;
-    border-bottom: solid black 1px
+    border-bottom: solid black 3px
 }
 /*--------------------------------------------------------CTA---------------*/
 .calltoaction {
@@ -133,7 +133,7 @@ body {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25) );
 	background:-moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25');
-	background-color:#ffc477;
+	background-color:orange;
 	-webkit-border-top-left-radius: 18px;
 	-moz-border-radius-topleft: 18px;
 	border-top-left-radius: 18px;
@@ -155,7 +155,7 @@ body {
 	font-weight: bold;
 	font-style: normal;
 	height: 49px;
-	line-height: 49px;
+	line-height: 45px;
 	width: 200px;
 	text-decoration: none;
 	text-align: center;
@@ -163,18 +163,11 @@ body {
 }
 
 .calltoaction {
-    background-color: orange;
-    color: black;
-    display: block;
-    border: solid 1px #111;
-    border-radius: 10px;
     padding: 0;
     margin: 0 auto;
     text-align: center;
-    display: block;
-    width: 200px;
+   
 }
-
 
 .calltoaction a:visited {
     color: purple;
@@ -191,8 +184,9 @@ body {
 
 #article { 
     background-color: rgba(0, 0, 0, .2);
-    width: 593px;
+    width: 590px;
     float: left;
+    border-right: 3px solid black;
 }
 
 
@@ -204,6 +198,7 @@ body {
     padding: 75px 0px 0px 0px;
     -moz-column-count: 3;
     -moz-column-rule: solid;
+    border-top: 3px solid black;
 }
     
 
@@ -279,6 +274,7 @@ aside p {
 
 /*------------------------------------------------------Footer--------------*/
 footer { 
+    color: white;
     background-color: black;
     clear: both;
 }
