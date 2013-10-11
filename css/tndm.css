@@ -54,7 +54,6 @@ h1, h2, h3, section, span{
     color: orange;
 }
 
-
 #top-menu a:visited {
     color: grey;
     background: black;
@@ -128,6 +127,8 @@ body {
     float: left;
 }
 
+
+
 #about { 
     background-color: blue;
     float: left;
@@ -169,10 +170,34 @@ aside p {
 }
 
 #charts {
-    background-color: black;
     margin: 20px;
     text-align: center;
 }
+
+#charts li {
+    list-style: circle;
+}
+
+#charts a:visited {
+    color: orange;
+    background: black;
+}
+
+#charts a:hover {
+    color: black;
+    background: orange;
+}
+
+#charts a:active {
+    color: orange;
+    background: black;
+}
+
+
+
+
+
+
 
 /*------------------------------------------------------Footer--------------*/
 footer { 
