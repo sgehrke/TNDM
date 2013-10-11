@@ -4,10 +4,12 @@ h1, h2, h3, h4, p, body, article {
     margin: 0;
     padding: 0;
     border: 0;
+    text-shadow: 2px 2px 10px #111;
 }
 
 p { 
     padding: 0px 20px 20px 20px;
+    color: white;
 }
 
 h1, h2, h3, section, span{
@@ -20,6 +22,7 @@ h3 {
 
 h2 {
     text-align: center;
+    color: white;
 }
 
 /*--------------------------------------------Navigation head--------------*/
@@ -89,7 +92,7 @@ h2 {
     text-align: center;
     line-height: 75px;
     padding: 75px 0px 0px 0px;
-    text-shadow: 2px 2px 10px orange;
+    text-shadow: 2px 2px 10px #111;
 }
 
 /*--------------------------------------------------Header-----------------*/
@@ -120,9 +123,46 @@ body {
 #intro { 
     background-color: rgba(0, 0, 0, .2);
     padding: 75px 0px 75px 0px;
+    border-bottom: solid black 1px
+}
+/*--------------------------------------------------------CTA---------------*/
+.calltoaction {
+	-moz-box-shadow: inset 1px -2px 10px -32px #fce2c1;
+	-webkit-box-shadow: inset 1px -2px 10px -32px #fce2c1;
+	box-shadow: inset 1px -2px 10px -32px #fce2c1;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25) );
+	background:-moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25');
+	background-color:#ffc477;
+	-webkit-border-top-left-radius: 18px;
+	-moz-border-radius-topleft: 18px;
+	border-top-left-radius: 18px;
+	-webkit-border-top-right-radius: 18px;
+	-moz-border-radius-topright: 18px;
+	border-top-right-radius: 18px;
+	-webkit-border-bottom-right-radius: 18px;
+	-moz-border-radius-bottomright: 18px;
+	border-bottom-right-radius: 18px;
+	-webkit-border-bottom-left-radius: 18px;
+	-moz-border-radius-bottomleft: 18px;
+	border-bottom-left-radius: 18px;
+	text-indent: 0px;
+	border: 2px solid #eeb44f;
+	display: block;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	height: 49px;
+	line-height: 49px;
+	width: 200px;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: 0px 4px 0px #cc9f52;
 }
 
-#calltoaction {
+.calltoaction {
     background-color: orange;
     color: black;
     display: block;
@@ -135,17 +175,17 @@ body {
     width: 200px;
 }
 
-#calltoaction a:visited {
-    color: grey;
-    background: grey;
+
+.calltoaction a:visited {
+    color: purple;
 }
 
-#calltoaction a:hover {
+.calltoaction a:hover {
     color: black;
     background: orange;
 }
 
-#calltoaction a:active {
+.calltoaction a:active {
     color: black;
 }
 
