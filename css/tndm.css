@@ -6,13 +6,19 @@ h1, h2, h3, h4, p, body, article {
     border: 0;
     text-shadow: 1px 1px 3px black;
 }
+@font-face {
+    font-family: "quicksand-regular";
+    src: url("../fonts/Quicksand/Quicksand-Regular.otf");
+}
 
 p { 
+    font-family: quicksand-regular;
     padding: 0px 20px 20px 20px;
     color: white;
 }
 
 h1, h2, h3, section, span{
+    font-family: quicksand-regular, arial;
     padding: 10px 20px 3px 20px;
 }
 
@@ -25,6 +31,7 @@ h2 {
     text-align: center;
     color: orange;
 }
+
 
 /*--------------------------------------------Navigation head--------------*/
 
