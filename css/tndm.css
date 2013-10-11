@@ -4,7 +4,7 @@ h1, h2, h3, h4, p, body, article {
     margin: 0;
     padding: 0;
     border: 0;
-    text-shadow: 2px 2px 10px #111;
+    text-shadow: 1px 1px 3px black;
 }
 
 p { 
@@ -18,11 +18,12 @@ h1, h2, h3, section, span{
 
 h3 {
     font-variant: small-caps;
+    color: orange;
 }
 
 h2 {
     text-align: center;
-    color: white;
+    color: orange;
 }
 
 /*--------------------------------------------Navigation head--------------*/
@@ -86,15 +87,18 @@ h2 {
 /*------------------------------------------------Branding-----------------*/
 
 #branding {
-    color: white;
     background-image: url("../images/Up-lighting_TNDM_thumbnail.jpg");
     background-position: bottom right;
     text-align: center;
     line-height: 75px;
     padding: 75px 0px 0px 0px;
     text-shadow: 2px 2px 10px #111;
+    color: white;
 }
 
+#branding h2 {
+    color: white;
+}
 /*--------------------------------------------------Header-----------------*/
 
 #wrapper {
@@ -127,25 +131,9 @@ body {
 }
 /*--------------------------------------------------------CTA---------------*/
 .calltoaction {
-	-moz-box-shadow: inset 1px -2px 10px -32px #fce2c1;
-	-webkit-box-shadow: inset 1px -2px 10px -32px #fce2c1;
 	box-shadow: inset 1px -2px 10px -32px #fce2c1;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25) );
-	background:-moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25');
 	background-color: orange;
-	-webkit-border-top-left-radius: 18px;
-	-moz-border-radius-topleft: 18px;
-	border-top-left-radius: 18px;
-	-webkit-border-top-right-radius: 18px;
-	-moz-border-radius-topright: 18px;
-	border-top-right-radius: 18px;
-	-webkit-border-bottom-right-radius: 18px;
-	-moz-border-radius-bottomright: 18px;
-	border-bottom-right-radius: 18px;
-	-webkit-border-bottom-left-radius: 18px;
-	-moz-border-radius-bottomleft: 18px;
-	border-bottom-left-radius: 18px;
+	border-radius: 18px;
 	text-indent: 0px;
 	border: 2px solid #eeb44f;
 	display: block;
@@ -265,12 +253,6 @@ aside p {
     color: orange;
     background: black;
 }
-
-
-
-
-
-
 
 /*------------------------------------------------------Footer--------------*/
 footer { 
