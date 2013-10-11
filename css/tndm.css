@@ -1,4 +1,4 @@
-/*---------Reset-----------------*/
+/*--------------------------------------------------Reset-----------------*/
 
 h1, h2, h3, h4, p, body, article {
     margin: 0;
@@ -16,7 +16,7 @@ h1, h2, h3, section, span{
 }
 
 
-/*---------Navigation head--------------*/
+/*--------------------------------------------Navigation head--------------*/
 
 #top-menu {
     background-color: rgba( 0, 0, 0, 1);
@@ -24,6 +24,7 @@ h1, h2, h3, section, span{
     display: block;
     height: 75px;
     width: 100%;
+    box-shadow: 4px 4px 4px #111;
 }
 
 #top-menu ul {
@@ -39,31 +40,42 @@ h1, h2, h3, section, span{
 #top-menu li { 
     width: 320px;
     overflow: hidden;
-    background-color: green;
-    float: right;
+    background-color: white;
+    float: left;
 }
 
 #top-menu a { 
     text-decoration: none;
-    background-color: white;
+    background-color: black;
     display: block;
     height: 75px;
     line-height: 75px;
     text-align: center;
-    color: green;
+    color: orange;
+}
+
+
+#top-menu a:visited {
+    color: grey;
+    background: black;
 }
 
 #top-menu a:hover {
+    color: black;
+    background: orange;
+}
+
+#top-menu a:active {
     color: orange;
-    background: green;
+    background: black;
 }
 
-img {
+#top-menu img {
     float: left;
-    padding-left: 150px;
+    padding: 5px 0px 0px 150px;
 }
 
-/*---------Branding-----------------*/
+/*------------------------------------------------Branding-----------------*/
 
 #branding {
     background-color: purple;
@@ -72,13 +84,14 @@ img {
     padding: 75px 0px 0px 0px;
 }
 
-/*---------Header-----------------*/
+/*--------------------------------------------------Header-----------------*/
 
 #wrapper {
     width:960px;
     margin: 0 auto;
     padding: 0px;
-    background-color: white;
+    box-shadow: 1px 1px 20px #111;
+
 } 
 
 header {
@@ -87,10 +100,12 @@ header {
     width: 0;
 }
 
-/*-----------Main Content------------------*/
+/*-------------------------------------------Main Content------------------*/
 
 body {
-    background-color: #666;
+    background-image: url("../images/gradient_bg.png");
+    background-color: black
+    background-repeat:repeat-x, no-repeat-y;
 }
 
 #intro { 
@@ -101,17 +116,16 @@ body {
 #calltoaction {
     background-color: black;
     padding: 0;
-    margin: 0;
-    text-align: right;
+    margin: 0 auto;
+    text-align: center;
     display: block;
-    width: 100%;
+    width: 50%;
 }
 
 #article { 
     background-color: green;
     width: 593px;
     float: left;
-    padding-bottom: 26px;
 }
 
 #about { 
@@ -124,39 +138,24 @@ body {
 }
     
 
-/*-----------Gallery---------------*/
-#gallery { 
+/*------------------------------------------------TopLink-------------------*/
+.toplink {
+    background-color: black;
+}
+
+.toplink1 {
     background-color: red;
-    clear: both;
-    padding: 75px 0px 0px 0px;
-}
-
-#gallery ul {
-    text-decoration: none;
-    width: 960px;
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-}
-
-.gallery li{
-    background-color: white;
-    text-decoration: none;
     display: block;
-    width: 200px;
-    float: left;
-}
-    
-
-.toplink {
-    background-color: black;
+    width: 65px;
+    height: 35px;
+    margin: 63px 0px 0px 0px;
+    text-align: center;
+    line-height: 35px;
 }
 
-.toplink {
-    background-color: black;
-}
 
-/*-----------Sidebar-----------------*/
+
+/*--------------------------------------------------Sidebar-----------------*/
 aside { 
     background-color: #777;
     width: 367px;
@@ -175,7 +174,7 @@ aside p {
     text-align: center;
 }
 
-/*-----------Footer--------------*/
+/*------------------------------------------------------Footer--------------*/
 footer { 
     background-color: yellow;
     clear: both;
@@ -187,3 +186,25 @@ footer {
     padding: 0;
 }
 
+
+/*----------------------------------------------------Gallery---------------*/
+#gallery { 
+    background-color: red;
+    clear: both;
+    padding: 75px 0px 0px 0px;
+}
+
+#gallery ul {
+    border-top: solid 2px black;
+    list-style-type: none;
+    width: 800px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+#gallery li {
+    float: left; 
+    padding: 20px;
+    margin: 0px 20px;
+}
+    
