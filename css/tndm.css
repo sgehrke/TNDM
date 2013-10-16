@@ -285,8 +285,6 @@ aside p {
     text-align: center;
     background-color: rgba(0, 0, 0, .2);
     clear: both;
-    display: inline-block;
-    vertical-align: middle;
     padding: 75px 0px 0px 0px;
 }
 
