@@ -103,6 +103,7 @@ h1 {
 
 #branding {
     background-image: url("../images/Up-lighting_TNDM_thumbnail.jpg");
+     background-size: cover;
     background-position: right bottom;
     text-align: center;
     line-height: 4.6875em /*75px*/;
@@ -125,14 +126,9 @@ h1 {
 
 } 
 
-header {
-    background-color: rgba(0, 0, 0, .2);
-}
-
 /*-------------------------------------------Main Content------------------*/
 
 body {
-   
     background-image: url("../images/gradient_bg.png");
     background-repeat: repeat-x;
     background-color: #252122;
@@ -164,7 +160,7 @@ body {
 }
 
 #about { 
-    background-color: rgba(0, 0, 0, .2);;
+    background-color: rgba(0, 0, 0, .2);
     float: left;
     clear: both;
     padding: 75px 0px 0px 0px;
@@ -290,6 +286,8 @@ aside p {
     text-align: center;
     background-color: rgba(0, 0, 0, .2);
     clear: both;
+    display: inline-block;
+    vertical-align: middle;
     padding: 75px 0px 0px 0px;
 }
 
@@ -309,6 +307,7 @@ aside p {
 
 #gallery img {
     max-width: 100%;
+    transform: scale (2)
 }    /*------------------------------------------------------Footer--------------*/
 
 footer { 
@@ -327,9 +326,34 @@ footer {
 
 /* Tablet Portrait size standard 960 (devices and browsers)*/
     @media screen and (min-width: 768px) and (max-width: 959px) {
-    #about {
-        -moz-column-count: 1;
+#wrapper {
+    max-width: 768px;
 }
+#about {
+    -moz-column-count: 3;
+}
+
+#article {
+    width: 100%;
+    border-right: none;
+    border-top: 3px black solid
+}
+
+aside {
+    width:100%;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+#gallery {
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+}
+
+h1 {
+    padding: 0;
+}
+
 }
 
 /* Mobile Landscape size tablet portrait (device and browser)  */
