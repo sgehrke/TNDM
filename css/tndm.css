@@ -290,14 +290,15 @@ aside p {
 
 #gallery ul {
     border: solid 2px white;
-    max-width: 62.5%;
-    max-height: 66.67%;
+    max-width: 62.5%; /*600px*/
     margin: 0 auto;
     overflow: hidden;
     padding: 0;
     padding-bottom: 0;
     border-radius: 18px;
 }
+
+
 
 
 #gallery li {
@@ -307,7 +308,39 @@ aside p {
     max-width: 100%;
 }
 
-.flex img {
+.flex1 {
+    width: 50%;
+}
+
+.flex2 {
+    width: 50%;
+}
+
+.flex3 {
+    width: 50%;
+}
+
+.flex4 {
+    width: 50%;
+}
+
+.flex1 img {
+    max-width: 100%
+}
+
+.flex2 img {
+    max-width: 100%
+}
+
+.flex3 img {
+    max-width: 100%
+}
+
+.flex4 img {
+    max-width: 100%
+}
+
+.flex1 img {
     max-width: 100%
 }
 /*------------------------------------------------------Footer--------------*/
