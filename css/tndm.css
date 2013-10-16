@@ -53,7 +53,6 @@ h1 {
 
 #top-menu ul {
     width: 66.666667% ;
-    max-width: 960px;
     margin: 0 auto;
     float: left;
     background-color: black;
@@ -119,7 +118,7 @@ h1 {
 /*--------------------------------------------------Header-----------------*/
 
 #wrapper {
-    max-width: 66.666667%;
+    max-width: 80%;
     margin: 0 auto;
     padding: 0px;
     box-shadow: 2px 2px 40px #111;
@@ -307,7 +306,6 @@ aside p {
 
 #gallery img {
     max-width: 100%;
-    transform: scale (2)
 }    /*------------------------------------------------------Footer--------------*/
 
 footer { 
@@ -358,6 +356,8 @@ h1 {
 
 /* Mobile Landscape size tablet portrait (device and browser)  */
     @media screen and (min-width: 480px) and (max-width: 767px) {
+
+
 }
 
 /* Mobile Portrait size to mobile landscape (devices and browsers) */
