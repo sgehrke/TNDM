@@ -102,7 +102,7 @@ h1 {
 
 #branding {
     background-image: url("../images/Up-lighting_TNDM_thumbnail.jpg");
-     background-size: cover;
+    background-size: cover;
     background-position: right bottom;
     text-align: center;
     line-height: 4.6875em /*75px*/;
@@ -326,19 +326,19 @@ aside p {
 }
 
 .flex1 img {
-    max-width: 110%
+    max-width: 110%;
 }
 
 .flex2 img {
-    max-width: 100%
+    max-width: 100%;
 }
 
 .flex3 img {
-    max-width: 100%
+    max-width: 100%;
 }
 
 .flex4 img {
-    max-width: 100%
+    max-width: 100%;
 }
 
 .flex1 img {
@@ -395,6 +395,7 @@ h1 {
 /* Mobile Landscape size tablet portrait (device and browser)  */
     @media screen and (min-width: 480px) and (max-width: 767px) {
 
+
 #wrapper {
     max-width: 90%;
 }
@@ -424,8 +425,7 @@ h1 {
 }
 
 #top-menu img {
-    float: left;
-    padding: 5px 0px 0px 3%;
+    margin: 0 auto;
 }
 
 
@@ -433,17 +433,83 @@ h1 {
 
 /* Mobile Portrait size to mobile landscape (devices and browsers) */
      @media screen and (max-width: 479px) {
+
+h2 {
+    font-size: 1.5625em; /*25px*/
+}
+
+h3 {
+    font-size: 1.125em;
+}
+
+#top-menu ul {
+    width: 100% ;
+    margin: 0 auto;
+    background-color: white;
+    list-style-type: none;
+ 
+}
+
+#top-menu li { 
+    clear: both;
+    width: 100%; /* 320px*/
+    overflow: hidden;
+}
+
+
+#intro { 
+    display: none;
+}
+
+#topmusic {
+    display: none;
+}
+
+#article { 
+    display: none;
+}
+
+#about { 
+    background-color: rgba(0, 0, 0, .2);
+    float: left;
+    clear: both;
+    padding: 75px 0px 0px 0px;
+    -moz-column-count: 3;
+    -moz-column-rule: solid;
+    border-top: 3px solid black;
+    display: none;
+}  
+
+footer {
+    position: fixed;
+    margin: 0 auto;
+}    
+
+
+
+
+
+
+
+
+
+
 #wrapper {
     max-width: 90%;
 }
+
 #about {
     -moz-column-count: 1;
+}
+
+#branding {
+    display:none;
 }
 
 #article {
     width: 100%;
     border-right: none;
-    border-top: 3px black solid
+    border-top: 3px black solid;
 }
 
 aside {
@@ -452,7 +518,7 @@ aside {
 }
 
 #gallery {
-    width: 100%;
+    width: auto;
     margin: 0 auto;
     float: none;
 }
@@ -462,9 +528,74 @@ h1 {
 }
 
 #top-menu img {
-    float: left;
+    margin: 0 auto;
     padding: 5px 0px 0px 3%;
 }
 
 
+
+
+/*-------------------------------------------------Mobile Gallery-------------*/
+
+
+
+#gallery { 
+    border-top: 3px black solid;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .2);
+    clear: both;
+    padding: 75px 0px 0px 0px;
+}
+
+#gallery ul {
+    border: solid 2px white;
+    max-width: 62.5%; /*600px*/
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    padding-bottom: 0;
+    border-radius: 18px;
+}
+
+#gallery li {
+    float: left;
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+}
+
+.flex1 {
+    width: 100%;
+}
+
+.flex2 {
+    width: 100%;
+}
+
+.flex3 {
+    width: 100%;
+}
+
+.flex4 {
+    width: 100%;
+}
+
+.flex1 img {
+    max-width: 100%
+}
+
+.flex2 img {
+    max-width: 100%;
+}
+
+.flex3 img {
+    max-width: 100%;
+}
+
+.flex4 img {
+    max-width: 100%;
+}
+
+.flex1 img {
+    max-width: 100%;
 }
