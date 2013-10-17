@@ -338,7 +338,7 @@ aside p {
 
 .flex1 img {
     max-width: 100%
-} 
+}
 /*------------------------------------------------------Footer--------------*/
 
 footer { 
@@ -388,6 +388,7 @@ h1 {
 }
 
 }
+
 /* Mobile Landscape size tablet portrait (device and browser)  */
     @media screen and (min-width: 480px) and (max-width: 767px) {
 
@@ -543,5 +544,85 @@ h1 {
 /*-------------------------------------------------Mobile Gallery-------------*/
 
 
+
+#gallery { 
+    border-top: 3px black solid;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .2);
+    clear: both;
+    padding: 75px 0px 0px 0px;
+}
+
+#gallery ul {
+    border: solid 2px white;
+    max-width: 62.5%; /*600px*/
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    padding-bottom: 0;
+    border-radius: 18px;
+}
+
+#gallery li {
+    float: left;
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+}
+
+.flex1 {
+    width: 100%;
+}
+
+.flex2 {
+    width: 100%;
+}
+
+.flex3 {
+    width: 100%;
+}
+
+.flex4 {
+    width: 100%;
+}
+
 /*--------------------------------------------------Mobile CTA---------------*/
 
+.calltoaction {
+    border-radius: 10px;
+	border: 2px solid #eeb44f;
+	display: block;
+	width: 100%;
+	font-family: quicksand-regular;
+	font-size: .9375em;
+	line-height: 20px;
+	text-align: center;
+	text-shadow: 2px 2px 0px black;
+    background: -moz-linear-gradient(orange, black);
+}
+
+.calltoaction {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.calltoaction a {
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-decoration: none;
+}
+
+.calltoaction a:visited {
+    color: white;
+}
+
+.calltoaction a:hover {
+    color: black;
+}
+
+.calltoaction a:active {
+    color: purple;
+}
+}
