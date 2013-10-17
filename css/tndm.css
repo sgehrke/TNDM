@@ -284,64 +284,35 @@ aside p {
     border-top: 3px black solid;
     text-align: center;
     background-color: rgba(0, 0, 0, .2);
+    
     clear: both;
     padding: 75px 0px 0px 0px;
 }
 
 #gallery ul {
-    max-width: 62.5%; /*600px*/
+    border: solid 2px black;
+    width: 62.5%;
     margin: 0 auto;
     overflow: hidden;
     padding: 0;
     padding-bottom: 0;
     border-radius: 18px;
-    border: solid orange 2px;
 }
 
 
-
+#gallery {
+    clear: both;
+    overflow: hidden;
+}
 
 #gallery li {
     float: left;
     margin: 0 auto;
-    display: block;
+    display: inline-block;
     max-width: 100%;
-    padding: 0;
 }
 
-.flex1 {
-    width: 50%;
-}
-
-.flex2 {
-    width: 50%;
-}
-
-.flex3 {
-    width: 50%;
-}
-
-.flex4 {
-    width: 50%;
-}
-
-.flex1 img {
-    max-width: 110%
-}
-
-.flex2 img {
-    max-width: 100%
-}
-
-.flex3 img {
-    max-width: 100%
-}
-
-.flex4 img {
-    max-width: 100%
-}
-
-.flex1 img {
+.flex img {
     max-width: 100%
 }
 /*------------------------------------------------------Footer--------------*/
@@ -363,7 +334,7 @@ footer {
 /* Tablet Portrait size standard 960 (devices and browsers)*/
     @media screen and (min-width: 768px) and (max-width: 959px) {
 #wrapper {
-    max-width: 90%;
+    max-width: 768px;
 }
 #about {
     -moz-column-count: 3;
@@ -395,46 +366,13 @@ h1 {
 /* Mobile Landscape size tablet portrait (device and browser)  */
     @media screen and (min-width: 480px) and (max-width: 767px) {
 
-#wrapper {
-    max-width: 90%;
-}
-#about {
-    -moz-column-count: 1;
-}
-
-#article {
-    width: 100%;
-    border-right: none;
-    border-top: 3px black solid
-}
-
-aside {
-    width:100%;
-    background-color: rgba(0, 0, 0, .2);
-}
-
-#gallery {
-    width: 100%;
-    margin: 0 auto;
-    float: none;
-}
-
-h1 {
-    padding: 0;
-}
-
-#top-menu img {
-    float: left;
-    padding: 5px 0px 0px 3%;
-}
-
 
 }
 
 /* Mobile Portrait size to mobile landscape (devices and browsers) */
      @media screen and (max-width: 479px) {
 #wrapper {
-    max-width: 90%;
+    width: 100%;
 }
 #about {
     -moz-column-count: 1;
@@ -460,11 +398,5 @@ aside {
 h1 {
     padding: 0;
 }
-
-#top-menu img {
-    float: left;
-    padding: 5px 0px 0px 3%;
-}
-
 
 }
