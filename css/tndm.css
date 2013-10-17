@@ -486,6 +486,10 @@ h3 {
     width: 100%; /* 320px*/
     overflow: hidden; 
 }
+
+/*.home:hover {
+    margin: -300px;*************************************************/
+}
      
 
 #branding {
