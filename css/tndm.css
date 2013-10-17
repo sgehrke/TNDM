@@ -284,14 +284,13 @@ aside p {
     border-top: 3px black solid;
     text-align: center;
     background-color: rgba(0, 0, 0, .2);
-    
     clear: both;
     padding: 75px 0px 0px 0px;
 }
 
 #gallery ul {
-    border: solid 2px black;
-    width: 62.5%;
+    border: solid 2px white;
+    max-width: 62.5%; /*600px*/
     margin: 0 auto;
     overflow: hidden;
     padding: 0;
@@ -300,19 +299,48 @@ aside p {
 }
 
 
-#gallery {
-    clear: both;
-    overflow: hidden;
-}
+
 
 #gallery li {
     float: left;
     margin: 0 auto;
-    display: inline-block;
+    display: block;
     max-width: 100%;
 }
 
-.flex img {
+.flex1 {
+    width: 50%;
+}
+
+.flex2 {
+    width: 50%;
+}
+
+.flex3 {
+    width: 50%;
+}
+
+.flex4 {
+    width: 50%;
+}
+
+.flex1 img {
+    max-width: 100%
+}
+
+.flex2 img {
+    max-width: 100%
+}
+
+.flex3 img {
+    max-width: 100%
+}
+
+.flex4 img {
+    max-width: 100%
+}
+
+.flex1 img {
     max-width: 100%
 }
 /*------------------------------------------------------Footer--------------*/
