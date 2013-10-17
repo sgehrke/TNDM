@@ -363,7 +363,7 @@ footer {
 /* Tablet Portrait size standard 960 (devices and browsers)*/
     @media screen and (min-width: 768px) and (max-width: 959px) {
 #wrapper {
-    max-width: 80%;
+    max-width: 90%;
 }
 #about {
     -moz-column-count: 3;
@@ -396,7 +396,7 @@ h1 {
     @media screen and (min-width: 480px) and (max-width: 767px) {
 
 #wrapper {
-    max-width: 80%;
+    max-width: 90%;
 }
 #about {
     -moz-column-count: 1;
@@ -433,3 +433,38 @@ h1 {
 
 /* Mobile Portrait size to mobile landscape (devices and browsers) */
      @media screen and (max-width: 479px) {
+#wrapper {
+    max-width: 90%;
+}
+#about {
+    -moz-column-count: 1;
+}
+
+#article {
+    width: 100%;
+    border-right: none;
+    border-top: 3px black solid
+}
+
+aside {
+    width:100%;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+#gallery {
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+}
+
+h1 {
+    padding: 0;
+}
+
+#top-menu img {
+    float: left;
+    padding: 5px 0px 0px 3%;
+}
+
+
+}
