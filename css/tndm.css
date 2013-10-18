@@ -186,6 +186,7 @@ body {
 	text-align: center;
 	text-shadow: 2px 2px 0px black;
     background: -moz-linear-gradient(orange, black); 
+   
 }
 
 .calltoaction {
@@ -392,6 +393,13 @@ h1 {
 #wrapper {
     max-width: 90%;
 }
+
+#branding {
+    padding-top: 50px;
+    line-height: 100px;
+    background-position: center;
+}
+    
 #about {
     -moz-column-count: 1;
 }
@@ -416,6 +424,14 @@ aside {
 h1 {
     padding: 0;
     font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5625em; /*25px*/
+}
+
+h3 {
+    font-size: 1.125em;
 }
 }
 
@@ -584,7 +600,6 @@ h1 {
 	text-shadow: 2px 2px 0px black;
     background: -moz-linear-gradient(orange, black);
 }
-
 
 
 .calltoaction {
