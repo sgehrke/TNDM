@@ -426,12 +426,12 @@ h1 {
     background: black;
     margin: 0 auto;
     position: static;
-    height: 200px;
+    height: 500px;
 }
 
 #top-menu a {
-    height: 75px;
-    line-height: 75px;
+    height: 90px;
+    line-height: 90px;
 }
 
 #top-menu img {
@@ -443,7 +443,7 @@ h1 {
 }
 
 #intro {
-    margin-top: 150px;
+    margin: 0 auto;
     padding-bottom: 15px;
 }
 
