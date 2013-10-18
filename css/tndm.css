@@ -122,7 +122,6 @@ h1 {
     margin: 0 auto;
     padding: 0px;
     box-shadow: 2px 2px 40px #111;
-
 } 
 
 /*-------------------------------------------Main Content------------------*/
@@ -135,16 +134,16 @@ body {
 
 #intro { 
     background-color: rgba(0, 0, 0, .2);
-    padding: 4.6875em/*75px*/ 0px 75px 0px;
+    padding: 75px 0px 75px 0px;
     border-bottom: solid black 3px;
 }
 
 #intro p {
-    padding: 0px 20px 20px 20px;
+    padding: 0px 2.083333% 20px 2.083333%; /*20px / 960*/
 }
 
 #topmusic p {
-    padding: 0px 20px 20px 20px;
+    padding: 0px 5.449591% 20px 5.449591%; /*20 / 367*/
 }
 
 #article { 
@@ -186,7 +185,6 @@ body {
 	text-align: center;
 	text-shadow: 2px 2px 0px black;
     background: -moz-linear-gradient(orange, black); 
-   
 }
 
 .calltoaction {
@@ -254,7 +252,7 @@ aside p {
 }
 
 #charts {
-    margin: 2.083333%; /*; 20px*/ 
+    margin: 2.083333%; /* 20px*/ 
     text-align: center;
 }
 
@@ -358,6 +356,7 @@ footer {
 
 /* Tablet Portrait size standard 960 (devices and browsers)*/
     @media screen and (min-width: 768px) and (max-width: 959px) {
+
 #wrapper {
     max-width: 90%;
 }
@@ -383,12 +382,10 @@ h1 {
     padding: 0;
     font-size: 2.5em;
 }
-
 }
 
 /* Mobile Landscape size tablet portrait (device and browser)  */
     @media screen and (min-width: 480px) and (max-width: 767px) {
-
 
 #wrapper {
     max-width: 90%;
@@ -402,6 +399,14 @@ h1 {
     
 #about {
     -moz-column-count: 1;
+}
+
+#about p {
+    padding: 0px 2.083333% 20px 2.083333%; /*20px / 960*/
+}
+
+#topmusic p {
+    padding: 0px 2.083333% 20px 2.083333%; /*20px / 960*/
 }
 
 #article {
@@ -490,13 +495,11 @@ h3 {
     padding: 10px;
 }
     
-
 #top-menu ul {
     width: 100% ;
     list-style-type: none;
     clear: both;
-    
- }
+}
 
 #top-menu li { 
     clear: both;
@@ -504,7 +507,6 @@ h3 {
     overflow: hidden; 
 }
     
-
 #branding {
     display:none;
 }
@@ -539,11 +541,7 @@ h1 {
     padding: 0;
 }
 
-
-
 /*-------------------------------------------------Mobile Gallery-------------*/
-
-
 
 #gallery { 
     border-top: 3px black solid;
