@@ -426,16 +426,20 @@ h1 {
     background: black;
     margin: 0 auto;
     position: static;
-    
+    height: 200px;
+}
+
+#top-menu a {
+    height: 75px;
+    line-height: 75px;
 }
 
 #top-menu img {
     margin: 0 auto;
     background: none;
-    position: none;
     display: block;
     float: none;
-    padding: 0;
+    padding: 50px;
 }
 
 #intro {
