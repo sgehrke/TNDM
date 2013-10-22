@@ -338,6 +338,63 @@ aside p {
 .flex1 img {
     max-width: 100%
 }
+
+/*----------------------------------------------------Forms & Tables--------*/
+
+caption {
+    margin: 75px 0 20px 0;
+}
+
+
+#table {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+table {
+    border-collapse: collapse;
+    color: white;
+    margin: 0 auto;
+}
+
+td {
+    clear: both; 
+    text-align: left;
+    padding: 1em;
+}
+
+th {
+    border-radius: 20px 20px 0 0;
+    font-size: 1.35em;
+    text-align: center;
+    background-color: orange;
+    padding: 1em;
+}
+
+.greyed {
+    color: #444;
+}
+
+.row1 {
+    background-color: #333;
+}
+
+.row2 {
+    background-color: #222;
+}
+
+.row3 {
+    background-color: black;
+}
+
+/*------------------------------------------------------Form----------------*/
+
+
+
+
+
+
+
+
 /*------------------------------------------------------Footer--------------*/
 
 footer { 
@@ -351,6 +408,8 @@ footer {
     margin: 0 auto;
     padding: 50px;
 }
+
+
 
 /*=========================================Media Queries=====================*/
 
@@ -541,6 +600,14 @@ h1 {
     padding: 0;
 }
 
+caption {
+    margin: 75px 0 20px 0;
+    font-variant: small-caps;
+}
+
+#table {
+    display: none;
+}
 /*-------------------------------------------------Mobile Gallery-------------*/
 
 #gallery { 
