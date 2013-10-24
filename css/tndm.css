@@ -173,7 +173,7 @@ body {
 /*--------------------------------------------------------CTA---------------*/
 
 .button {
-    border-radius: 10px;
+    border-radius: 20px;
 	border: 1px solid black;
 	display: block;
 	width: 300px;
@@ -181,10 +181,10 @@ body {
 	font-family: quicksand-regular;
 	font-size: 2em; /*30px;*/
 	height: 50px;
-	line-height: 45px;
+	line-height: 50px;
 	text-align: center;
-	text-shadow: 1px 1px 0px black;
-    background: -moz-linear-gradient(orange, white); 
+	text-shadow: 1px 1px 0px orange;
+    background: -moz-linear-gradient(orange, #FF5800); 
 }
 
 .button {
@@ -199,7 +199,7 @@ body {
 }
 
 .button:visited {
-    color: orange;
+    border: purple;
 }
 
 .button:hover {
@@ -214,27 +214,28 @@ body {
 }
 /*------------------------------------------------TopLink-------------------*/
 
-.toplink {
-    background-color: black;
-}
-
 .toplink1 {
-    color: orange;
-    background-color: black;
+    color: black;
     display: block;
-    width: 11.01694915% /*65px / 590px*/;
+    width: 50px;
     height: 2.1875em; /*35px*/
-    margin: 1.04166667% /*10px*/ 0px 0px 0px;
+    margin: 0 auto;
     text-align: center;
     line-height: 2.1875em; /*35px;*/
+    background: -moz-linear-gradient(orange, #FF5800); 
+    border-radius: 20px 20px 0 0;
 }
 
-#toplink1 a:hover {
+a.toplink1 {
+    text-decoration: none;
+}
+
+.toplink1:hover {
     color: black;
     background: orange;
 }
 
-#toplink1 a:active {
+.toplink1 a:active {
     color: orange;
     background: black;
 }
@@ -285,11 +286,14 @@ aside p {
     background-color: rgba(0, 0, 0, .2);
     clear: both;
     padding: 75px 0px 0px 0px;
+    border-bottom: 3px black solid;
+
 }
 
 #gallery ul {
     max-width: 62.5%; /*600px*/
     margin: 0 auto;
+    margin-bottom: 20px;
     overflow: hidden;
     padding: 0;
     padding-bottom: 0;
@@ -368,14 +372,26 @@ td {
 
 #book1 {
     text-align: center;
+    border-radius: 0 0 20px 20px;
+	text-shadow: 1px 1px 0px orange;
+    background: -moz-linear-gradient(orange, #FF5800); 
+
 }
 
 #book2 {
     text-align: center;
+	text-shadow: 1px 1px 0px orange;
+    background: -moz-linear-gradient(orange, #FF5800); 
+    border-radius: 0 0 20px 20px;
 }
 
 #book3 {
     text-align: center;
+    border-radius: 0 0 20px 20px;
+
+	text-shadow: 1px 1px 0px orange;
+    background: -moz-linear-gradient(orange, #FF5800); 
+
 }
 
 th {
@@ -405,7 +421,7 @@ th {
 /*-----------------------------------------------------Form----------------*/
 form {
     border: 1px solid orange;
-    margin: 0;
+    margin: 0 0 20px 0;
 }
 
 #form {
@@ -452,20 +468,22 @@ select {
 
 .button4 {
     width: 20%;
-    background: orange;
     border-radius: 7px;
+    border: 1px solid black;
     clear:both;
     margin-left: 52%;
+	text-shadow: 1px 1px 0px orange;
+    background: -moz-linear-gradient(orange, #FF5800); 
 }
 
 .button4:visited {
-    background: black;
+    border: purple;
 }
 .button4:hover {
-        background: green;
+        background: orange;
 }
 .button4:active {
-    background: blue;
+        border: 2px solid purple;
 }
 
 /*------------------------------------------------------Footer--------------*/
@@ -481,8 +499,6 @@ footer {
     margin: 0 auto;
     padding: 50px;
 }
-
-
 
 /*=========================================Media Queries=====================*/
 
@@ -731,37 +747,5 @@ caption {
 	border: 2px solid #eeb44f;
 	display: block;
 	width: 100%;
-	font-family: quicksand-regular;
-	font-size: .9375em;
-	line-height: 20px;
-	text-align: center;
-	text-shadow: 2px 2px 0px black;
-    background: -moz-linear-gradient(orange, black);
 }
 
-
-.button {
-    padding: 0;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.button {
-    display: block;
-    width: 100%;
-    height: 40px;
-    text-decoration: none;
-}
-
-.button:visited {
-    color: white;
-}
-
-.button:hover {
-    color: black;
-}
-
-.button:active {
-    color: purple;
-}
-}
