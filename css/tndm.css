@@ -164,6 +164,9 @@ body {
     padding: 75px 0px 0px 0px;
     -moz-column-count: 3;
     -moz-column-rule: solid;
+    -webkit-column-count: 3;
+    -webkit-column-rule: solid;
+
     border-top: 3px solid black;
 }
 
@@ -185,6 +188,8 @@ body {
 	text-align: center;
 	text-shadow: 1px 1px 0px orange;
     background: -moz-linear-gradient(orange, #FF5800); 
+    background: -webkit-linear-gradient(orange, #FF5800);
+
 }
 
 .button {
@@ -205,6 +210,7 @@ body {
 .button:hover {
     color: black;
     background: -moz-linear-gradient(orange, orange); 
+    background: -webkit-linear-gradient(orange, #FF5800);
 	text-shadow: 1px 1px 0px white;
 
 }
@@ -223,6 +229,7 @@ body {
     text-align: center;
     line-height: 2.1875em; /*35px;*/
     background: -moz-linear-gradient(orange, #FF5800); 
+    background: -webkit-linear-gradient(orange, #FF5800);
     border-radius: 20px 20px 0 0;
 }
 
@@ -375,23 +382,23 @@ td {
     border-radius: 0 0 20px 20px;
 	text-shadow: 1px 1px 0px orange;
     background: -moz-linear-gradient(orange, #FF5800); 
-
+    background: -webkit-linear-gradient(orange, #FF5800);
 }
 
 #book2 {
     text-align: center;
 	text-shadow: 1px 1px 0px orange;
-    background: -moz-linear-gradient(orange, #FF5800); 
+    background: -moz-linear-gradient(orange, #FF5800);
+    background: -webkit-linear-gradient(orange, #FF5800); 
     border-radius: 0 0 20px 20px;
 }
 
 #book3 {
     text-align: center;
     border-radius: 0 0 20px 20px;
-
 	text-shadow: 1px 1px 0px orange;
     background: -moz-linear-gradient(orange, #FF5800); 
-
+    background: -webkit-linear-gradient(orange, #FF5800);
 }
 
 th {
@@ -473,6 +480,7 @@ select {
     clear:both;
     margin-left: 52%;
 	text-shadow: 1px 1px 0px orange;
+    background: -webkit-linear-gradient(orange, #FF5800);
     background: -moz-linear-gradient(orange, #FF5800); 
 }
 
@@ -547,6 +555,9 @@ h1 {
     
 #about {
     -moz-column-count: 1;
+    -webkit-column-count: 1;
+    -webkit-column-rule: none;
+
 }
 
 #about p {
@@ -666,6 +677,8 @@ h3 {
     padding: 0px;
     border-top: 3px solid black;
     -moz-column-count: 1;
+    -webkit-column-count: 1;
+    -webkit-column-rule: none;
 }  
 
 #article {
@@ -743,9 +756,10 @@ caption {
 /*--------------------------------------------------Mobile CTA---------------*/
 
 .button {
-    border-radius: 10px;
+    border-radius: 20px;
 	border: 2px solid #eeb44f;
 	display: block;
-	width: 100%;
+	width: 80%;
+    font-size: 100%;
 }
 
