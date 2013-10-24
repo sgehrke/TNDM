@@ -172,43 +172,45 @@ body {
 }
 /*--------------------------------------------------------CTA---------------*/
 
-.calltoaction {
+.button {
     border-radius: 10px;
-	border: 2px solid #eeb44f;
+	border: 1px solid black;
 	display: block;
 	width: 300px;
     height: 50px;
 	font-family: quicksand-regular;
-	font-size: .75em; /*30px;*/
+	font-size: 2em; /*30px;*/
 	height: 50px;
-	line-height: 25px;
+	line-height: 45px;
 	text-align: center;
-	text-shadow: 2px 2px 0px black;
-    background: -moz-linear-gradient(orange, black); 
+	text-shadow: 1px 1px 0px black;
+    background: -moz-linear-gradient(orange, white); 
 }
 
-.calltoaction {
+.button {
     padding: 0;
     margin: 0 auto;
     text-align: center;
-}
-
-.calltoaction a {
-    display: block;
-    width: 100%;
     text-decoration: none;
 }
 
-.calltoaction a:visited {
+.button:link {
     color: white;
 }
 
-.calltoaction a:hover {
-    color: black;
+.button:visited {
+    color: orange;
 }
 
-.calltoaction a:active {
-    color: purple;
+.button:hover {
+    color: black;
+    background: -moz-linear-gradient(orange, orange); 
+	text-shadow: 1px 1px 0px white;
+
+}
+
+.button:active {
+    color: grey;
 }
 /*------------------------------------------------TopLink-------------------*/
 
@@ -341,6 +343,7 @@ aside p {
 
 /*----------------------------------------------------Forms & Tables--------*/
 
+
 caption {
     margin: 75px 0 20px 0;
 }
@@ -348,6 +351,7 @@ caption {
 
 #table {
     background-color: rgba(0, 0, 0, .2);
+    clear: both;
 }
 
 table {
@@ -360,6 +364,18 @@ td {
     clear: both; 
     text-align: left;
     padding: 1em;
+}
+
+#book1 {
+    text-align: center;
+}
+
+#book2 {
+    text-align: center;
+}
+
+#book3 {
+    text-align: center;
 }
 
 th {
@@ -386,14 +402,71 @@ th {
     background-color: black;
 }
 
-/*------------------------------------------------------Form----------------*/
+/*-----------------------------------------------------Form----------------*/
+form {
+    border: 1px solid orange;
+    margin: 0;
+}
 
+#form {
+    background-color: rgba(0, 0, 0, .2);
+}
 
+#request {
+    padding-bottom: 20px;
+}
 
+label {
+    color: white;
+    display: block;
+    width: 48%;
+    padding-right: 2em;
+    float: left;
+    text-align: right;
+}
 
+input {
+    display: block;
+    width: 25%;
+    margin: 2px;
+}
 
+select {
+    float: left;
+}
 
+.textbox {
+    display: block;
+    width: 70%;
+    clear: both;
+    margin: 0 auto;
+}
 
+#description {
+    display: block;
+    width: 100%;
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button4 {
+    width: 20%;
+    background: orange;
+    border-radius: 7px;
+    clear:both;
+    margin-left: 52%;
+}
+
+.button4:visited {
+    background: black;
+}
+.button4:hover {
+        background: green;
+}
+.button4:active {
+    background: blue;
+}
 
 /*------------------------------------------------------Footer--------------*/
 
@@ -653,7 +726,7 @@ caption {
 
 /*--------------------------------------------------Mobile CTA---------------*/
 
-.calltoaction {
+.button {
     border-radius: 10px;
 	border: 2px solid #eeb44f;
 	display: block;
@@ -667,28 +740,28 @@ caption {
 }
 
 
-.calltoaction {
+.button {
     padding: 0;
     margin: 0 auto;
     text-align: center;
 }
 
-.calltoaction a {
+.button {
     display: block;
     width: 100%;
     height: 40px;
     text-decoration: none;
 }
 
-.calltoaction a:visited {
+.button:visited {
     color: white;
 }
 
-.calltoaction a:hover {
+.button:hover {
     color: black;
 }
 
-.calltoaction a:active {
+.button:active {
     color: purple;
 }
 }

@@ -27,7 +27,7 @@
 		<section id="intro">
 			<h2 >Home</h2>	
 				<p>Our company has been providing professional wedding entertainment for over 10 years and offers the industries best sound systems – World-class lighting shows and up-lighting – A huge music library of over 70,000 songs with on the spot download capabilities – And can create custom slideshows and monograms to put that personal touch on your wedding. At TNDM we know what this day means to you, and will take all the necessary steps to ensure your day is just how you have always imagined it. We are also proud to announce we have received <strong>The 2013 Bride's Choice Award from WeddingWire.com.</strong> The WeddingWire Bride's Choice Awards™ recognizes the top local wedding professionals from the WeddingWire Network that demonstrate excellence in quality, service, responsiveness and professionalism. We received this award by obtaining all five star reviews from our past clients. Only 200 awards are giving out throughout the country, so this puts us in the top 5% of Wedding Pros nationwide!</p>
-			<div class="calltoaction"><h2><a href="http://www.thenewdancemachine.djintelligence.com/quote/">Instant Quote</a></h2></div>
+			<a href="http://www.thenewdancemachine.djintelligence.com/quote/" class="button">Instant Quote</a>
 		</section>
 
 
@@ -111,57 +111,59 @@
 				<td class="row3">Wireless Mics and PA system</td>
 			</tr>
 			<tr>
-				<td class="row1"><button>BOOK IT</button></td>
-				<td class="row2"><button>BOOK IT</button></td>
-				<td class="row3"><button>BOOK IT</button></td>
+				<td class="row1" id="book1"><button>BOOK IT</button></td>
+				<td class="row2"id="book2"><button>BOOK IT</button></td>
+				<td class="row3"id="book3"><button>BOOK IT</button></td>
 			</tr>
 		</table>
 		</section>
 
-		<section>
-		<h3>Request Additional Package Information</h3>
-		<form method="get" action="mailto:djshaun@thenewdancemachine.com">
-			<div>
-				<label></label>
-				<input/>
-			</div>
+		<section id="form">
+			<h3 id="request">Request Additional Package Information</h3>
+			<form method="get" action="mailto:djshaun@thenewdancemachine.com">
+				<div>
+					<label for="name_first">First Name</label>
+					<input type="text" name="name_first" id="name_first"/>
+				</div>
 		
-			<div>
-				<label></label>
-				<input/>
-			</div>
+				<div>
+					<label for="name_last">Last Name</label>
+					<input type="text" name="name_last" id="name_last"/>
+				</div>
 
-			<div>
-				<label></label>
-				<input/>
-			</div>
+				<div>
+					<label for="email">Email Address</label>
+					<input type="email" name="name_first" id="dob"/>
+				</div>
 
-			<div>
-				<label></label>
-				<input/>
-			</div>
+				<div>
+					<label for="date">Event Date</label>
+					<input type="date" name="date" id="date"/>
+				</div>
 
-			<div>
-				<label></label>
-				<input/>
-			</div>
-			<div>
-				<label for="role"><p>Choose a Package</p></label>
-				<select name="role" id="role">
-					<option>Platinum</option>
-					<option>Diamond</option>
-					<option>Pearl</option>
-					<option>Up-Lighting</option>
-					<option>Photo Booth</option>
-				</select>			
-			<div>
-				<p><label for="description"> Please describe your event needs</label></p>
-				<p><textarea name="description" rows="7" cols="40"></textarea></p>
-				<input type="submit"/>
-			</div>
-
-			</div>
-		</form>
+				<div>
+					<label for="location" class="location">Location</label>
+					<input type="text" name="location" id="location"/>
+				</div>
+			
+				<div>
+					<label for="role"><p>Choose a Package</p></label>
+					<select name="role" id="role">
+						<option>Platinum</option>
+						<option>Diamond</option>
+						<option>Pearl</option>
+						<option>Up-Lighting</option>
+						<option>Photo Booth</option>
+					</select>			
+				</div>
+	
+				<div>
+					<label for="description" id="description"> Please describe your event needs</label>
+					<textarea class="textbox" name="description" rows="7" cols="40"></textarea>
+					<input class="button4" type="submit" value="Submit"/>
+				</div>
+			</form>
+		</section>
 	
 	</div> <!-- end wrapper -->
 
